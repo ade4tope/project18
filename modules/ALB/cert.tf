@@ -1,6 +1,6 @@
 # The entire section create a certiface, public zone, and validate the certificate using DNS method
 
-# Create the certificate using a wildcard for all the domains created in oyindamola.gq
+# Create the certificate using a wildcard for all the domains created in ibk.gq
 resource "aws_acm_certificate" "ibk" {
   domain_name       = "*.ibk.monster"
   validation_method = "DNS"
